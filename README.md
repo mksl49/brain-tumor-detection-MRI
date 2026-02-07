@@ -133,3 +133,7 @@ We evaluated the three trained models (YOLOv8, Faster R-CNN, DETR) on the same v
 
 - Detailed metrics, logs, and additional plots are available in the `results/` folder.
 
+
+## Licence
+This project is licensed under the **MIT License**.
+

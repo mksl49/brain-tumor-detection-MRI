@@ -1,0 +1,10 @@
+detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu121/torch2.0/index.html
+ultralytics
+transformers
+datasets  
+wandb
+albumentations
+pycocotools
+matplotlib 
+seaborn 
+pandas

@@ -1,0 +1,3 @@
+split,total_images,image_count,instance_count
+train,4737,4976,5317
+val,512,530,554

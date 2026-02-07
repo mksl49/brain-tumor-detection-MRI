@@ -1,0 +1,9 @@
+split,class,image_count,instance_count,total_images
+train,glioma,1152,1349,4737
+train,meningioma,1442,1482,4737
+train,no_tumor,711,711,4737
+train,pituitary,1671,1775,4737
+val,glioma,135,153,512
+val,meningioma,140,142,512
+val,no_tumor,101,98,512
+val,pituitary,154,161,512

@@ -54,7 +54,7 @@ This project implements object detection models for identifying brain tumors in 
 
 <br>
 
-### image(173)
+### No Tumor : image(173)
 
 <table style="width:100%; border:none;">
 <tr>
@@ -93,3 +93,43 @@ This project implements object detection models for identifying brain tumors in 
   </td>
 </tr>
 </table>
+
+
+## Model Comparison
+
+We evaluated the three trained models (YOLOv8, Faster R-CNN, DETR) on the same validation set using standard COCO-style metrics (mAP@0.5:0.95, mAP@0.5, mAP@0.75, precision, recall, F1-score, and performance across object sizes).
+
+![Model Comparison Charts](results/model_comparison.png)
+
+### Key Takeaways
+
+- **YOLOv8 is the clear winner in overall performance**
+  - Highest mAP@0.5:0.95 → **0.781**
+  - Highest mAP@0.5 → **0.964**
+  - Highest F1-score → **0.946**
+  - Best precision-recall trade-off (very high precision and recall)
+  - Strong multi-metric radar chart dominance
+
+- **Faster R-CNN performs second best but lags significantly**
+  - mAP@0.5:0.95 → **0.562** (28% lower than YOLOv8)
+  - Noticeably weaker on small objects (very low mAP for small lesions)
+  - Moderate performance on medium/large objects
+
+- **DETR shows the weakest quantitative results in this setup**
+  - Lowest mAP@0.5:0.95 → **0.508**
+  - Lowest mAP@0.5 → **0.766**
+  - Lowest F1-score
+  - Struggles especially with medium and large objects compared to the others
+
+- **Object size sensitivity**
+  - All models perform best on **large** objects
+  - **Small** objects are very challenging (mAP < 0.3 for all models)
+  - YOLOv8 maintains the best balance across small/medium/large
+
+- **Practical recommendation**
+  - For real-world MRI brain tumor detection → **YOLOv8** offers the best combination of accuracy, speed, and robustness
+  - Faster R-CNN may still be useful if highest possible precision on larger lesions is critical and inference speed is not a concern
+  - DETR underperformed in this training/evaluation setup — may benefit from longer training, better hyperparameter tuning, or more data
+
+- Detailed metrics, logs, and additional plots are available in the `results/` folder.
+

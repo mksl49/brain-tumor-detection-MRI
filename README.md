@@ -134,6 +134,9 @@ We evaluated the three trained models (YOLOv8, Faster R-CNN, DETR) on the same v
 - Detailed metrics, logs, and additional plots are available in the `results/` folder.
 
 
+## Future Works
+There are lot of rooms for improvement and experiment. I have trained for 60/50 epochs for all of the models for resouce scarcity. well for detr and faster rcnn it's better to train for longer epochs. also will explore other augmentation and preprocessing steps to gain better performance.
+
 ## Licence
 This project is licensed under the **MIT License**.
 

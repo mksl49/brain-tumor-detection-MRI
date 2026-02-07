@@ -32,23 +32,20 @@ This project implements object detection models for identifying brain tumors in 
 
 ## Sample Predictions
 
+
 ### gg (22)
 
 <table style="width:100%; border:none;">
 <tr>
-  <td width="25%" align="center">
-    <strong>Original</strong><br>
-    <img src="predictions/gg%20(22)_original.jpg" width="100%">
-  </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>DETR</strong><br>
     <img src="predictions/gg%20(22)_detr.png" width="100%">
   </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>Faster R-CNN</strong><br>
     <img src="predictions/gg%20(22)_faster_rcnn.png" width="100%">
   </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>YOLO</strong><br>
     <img src="predictions/gg%20(22)_yolo.png" width="100%">
   </td>
@@ -61,19 +58,15 @@ This project implements object detection models for identifying brain tumors in 
 
 <table style="width:100%; border:none;">
 <tr>
-  <td width="25%" align="center">
-    <strong>Original</strong><br>
-    <img src="predictions/image(173)_original.jpg" width="100%">
-  </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>DETR</strong><br>
     <img src="predictions/image(173)_detr.png" width="100%">
   </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>Faster R-CNN</strong><br>
     <img src="predictions/image(173)_faster_rcnn.png" width="100%">
   </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>YOLO</strong><br>
     <img src="predictions/image(173)_yolo.png" width="100%">
   </td>
@@ -86,19 +79,15 @@ This project implements object detection models for identifying brain tumors in 
 
 <table style="width:100%; border:none;">
 <tr>
-  <td width="25%" align="center">
-    <strong>Original</strong><br>
-    <img src="predictions/Tr-gl_1295_original.jpg" width="100%">
-  </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>DETR</strong><br>
     <img src="predictions/Tr-gl_1295_detr.png" width="100%">
   </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>Faster R-CNN</strong><br>
     <img src="predictions/Tr-gl_1295_faster_rcnn.png" width="100%">
   </td>
-  <td width="25%" align="center">
+  <td width="33%" align="center">
     <strong>YOLO</strong><br>
     <img src="predictions/Tr-gl_1295_yolo.png" width="100%">
   </td>

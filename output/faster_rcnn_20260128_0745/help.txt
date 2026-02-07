@@ -1,0 +1,1 @@
+put faster rcnn model here. if you train will be automatically here. or you can download the model from the drive link mentioned in the readme and put it here for prediction.

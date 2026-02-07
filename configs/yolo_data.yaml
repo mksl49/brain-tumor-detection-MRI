@@ -1,0 +1,11 @@
+{
+  "train": "/home/likhon/zksl/lmn/mri/project/data/yolo_merged/train/images",
+  "val": "/home/likhon/zksl/lmn/mri/project/data/yolo_merged/val/images",
+  "nc": 4,
+  "names": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ]
+}

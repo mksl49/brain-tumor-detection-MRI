@@ -135,7 +135,9 @@ We evaluated the three trained models (YOLOv8, Faster R-CNN, DETR) on the same v
 
 
 ## Future Works
-There are lot of rooms for improvement and experiment. I have trained for 60/50 epochs for all of the models for resouce scarcity. well for detr and faster rcnn it's better to train for longer epochs. also will explore other augmentation and preprocessing steps to gain better performance.
+There are lot of rooms for improvement and experiments. 
+- I have trained for 60/50 epochs for all of the models for resouce scarcity. well for detr and faster rcnn it's better to train for longer epochs. also will explore other augmentation and preprocessing steps to gain better performance.
+- DETR performs best with large datasets. As the dataset is small this model perfoms worst here as per this perception.
 
 ## Licence
 This project is licensed under the **MIT License**.
